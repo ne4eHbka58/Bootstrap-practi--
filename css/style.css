@@ -1,0 +1,80 @@
+:root {
+  --color-bg-1: #724826;
+  --color-bg-2: #ddc9b8;
+  --color-bg-2-opacity: #c2926c91;
+  --color-bg-3: #8d7868;
+  --color-bg-3-opac: #8d786857;
+  --color-bg-4: #dbc9a4;
+  --color-bg-5: #52341c;
+
+  /* maybe colors */
+  /* --color-bg-5: #4c4d12bb; */
+  /* --color-bg-1: #583e29; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+html {
+  transition: all 0.6s ease;
+}
+body {
+  background-color: var(--color-bg-1);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #3324172a; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-bg-4); /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+  border: 3px solid var(--color-bg-1); /*padding вокруг плашки */
+}
+.cafe-head {
+  padding: 200px 0;
+  background-image: url(../img/main-img.jpg);
+  background-position: center 0;
+  font-family: "Caveat", cursive;
+}
+.about {
+  background-color: var(--color-bg-3);
+  padding: 5px 10px;
+}
+p {
+  text-align: justify;
+}
+.my-nav-bg {
+  background: var(--color-bg-2-opacity);
+}
+.menu {
+  background-color: var(--color-bg-4);
+  border: 7px solid #855c3d;
+  font-family: "Caveat", cursive;
+}
+.menu h1 {
+  color: #362619;
+}
+.menu h2 {
+  color: #583419;
+}
+.menu .mt {
+  margin-top: 5%;
+}
+.attract {
+  padding-block: 290px 220px !important;
+  background-image: url(../img/cafe-2.jpg);
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.modal-body .w-30 {
+  width: 30%;
+}
+.modal-content {
+  background-color: var(--color-bg-2);
+}
+
+footer {
+  background-color: var(--color-bg-5);
+}
